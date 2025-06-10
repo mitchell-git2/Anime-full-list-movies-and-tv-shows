@@ -26,6 +26,17 @@
   <body>
     <div id="overlay"></div>
     <div id="largeContainer">
+      <!-- Add the menu button -->
+       <button id="menu-button">Menu</button>
+      <!-- Add the sidebar navigation -->
+       <div id="sidebar-nav">
+       <ul>
+       <li><a href="index2.html"target="_blank">Full Library:Anime TV Shows</a></li>
+       <li><a href="index.html"target="_blank">Full Library:Anime Movies</a></li>
+       <li><a href="https://mitch-git4.github.io/Newly-Added-Anime-TV-Shows-and-Movies/index2.html"target="_blank">New Anime Tv Shows Added</a></li>
+       <li><a href="https://docs.google.com/document/d/1Dw9nwIlQjj77e0yFSASIzcSfRoqXMQEi/edit?usp=sharing&ouid=107722713483068785243&rtpof=true&sd=true"target="_blank">Check List Link Page Anime Tv Shows</a></li>
+       </ul>
+       </div>
       <div class="infoContainer">
          <div id="searchContainer">
         <input type="text" autocomplete="off" onfocus="this.value='';"
@@ -48,23 +59,28 @@
             <span>87</span>
           </div>
           <div class="name">
-            <span class="titleNoBlock">Link Page Full Library:Anime TV Shows</span>
-            <span><a href="index2.html"target="_blank">Full Library:Anime TV Shows</a></span>
+            <span class="titleNoBlock">New Tv Shows Added This Month:</span>
+            <span>19</span>
           </div>
           <div class="name">
-            <span class="titleNoBlock">Link Page Full Library:Anime Movies</span>
-            <span><a href="index.html"target="_blank">Full Library:Anime Movies</a></span>
+            <span class="titleNoBlock">Request Link Page</span>
+            <span><a href="https://docs.google.com/document/d/1MHskr_RrHWGtjXsfzbfVeqdZJHSsIqf3/edit"target="_blank">Request File</a></span>
+          </div>
+          <div class="name">
+            <span class="titleNoBlock">Top 10 Picked Anime TV Shows This Month</span>
+            <span><a href="https://mitch-git5.github.io/homepage-one-stop-tv-delight-/index3.html"target="_blank">Top 10</a></span>
           </div>
            <div class="name">
-            <span class="titleNoBlock">New Anime Tv Shows Added:</span>
-            <span><a href="https://mitch-git4.github.io/Newly-Added-Anime-TV-Shows-and-Movies/index2.html"target="_blank">New Anime Tv Shows Added</a></span>
-          </div>
-          <div class="name">
-            <span class="titleNoBlock">Check List Link Page Anime Tv Shows:</span>
-            <span><a href="https://docs.google.com/document/d/1Dw9nwIlQjj77e0yFSASIzcSfRoqXMQEi/edit?usp=sharing&ouid=107722713483068785243&rtpof=true&sd=true"target="_blank">Check List</a></span>
-          </div>
-      </div>
-    </div>
+            <span class="titleNoBlock">Updated TV Shows have a star in them</span>
+            <span class="text">Updated</span><span class="star">&#9733;</span>
+           </div>
+            <div class="name">
+            <span class="titleNoBlock">Updated TV Shows This Month</span>
+            <span>1</span>
+           </div>
+         </div>
+        </div>
+        <div id="no-results-message" class="no-results-message"></div>
       
       <div id="tvshow_1" class="aniContainer aniOrder0">
         <a href="images/fanart/1.jpg" class="fancybox" rel="1">
@@ -4305,7 +4321,7 @@ Even in another world, lives aren&rsquo;t always on the line. There&rsquo;s plen
           </div>
           <div class="aniNumEps name">
             <span class="titleNoBlock">No. Episodes:</span>
-            <span class="value">12</span>
+            <span class="value">25</span>
           </div>
           <div class="aniRating name">
             <span class="titleNoBlock">Rating:</span>
@@ -4334,6 +4350,10 @@ Even in another world, lives aren&rsquo;t always on the line. There&rsquo;s plen
           <div class="anilink name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">UnComplete</span>
+          </div>
+            <div class="anilink name">
+           <span class="titleNoBlock">Updated:</span>
+           <span class="text">New Episodes Added:</span><span class="star">&#9733;</span>
           </div>
         </div>
         <div class="qBar"></div>
@@ -6255,6 +6275,18 @@ One month later, Ayanokoji, Horikita, and the students of Class D learn the trut
         <div class="footerTextContainer">
       </div>
     </div>
+      <script>
+      const menuButton = document.getElementById('menu-button');
+      const sidebarNav = document.getElementById('sidebar-nav');
+    
+      menuButton.addEventListener('click', () => {
+        sidebarNav.classList.toggle('open');
+        menuButton.classList.toggle('menu-button-open');
+        
+        const infoContainer = document.querySelector('.infoContainerTextContainer');
+        infoContainer.classList.toggle('sidebar-nav-open');
+      });
+      </script>
     <script type="text/javascript">
                       $(document).ready(function() {
                                 $(&quot;.fancybox&quot;).fancybox({
