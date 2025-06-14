@@ -39,14 +39,26 @@
        </div>
       <div class="infoContainer">
          <div id="searchContainer">
-        <input type="text" autocomplete="off" onfocus="this.value='';"
-        onblur="if(this.value==''){this.value='Search...'};"
-        onkeyup="searchOnPage(this.value.toLowerCase());" value="" name="search"
-        id="search_box" />
+        <input type="text" autocomplete="off" onfocus="this.value=''; searchOnPage('');"
+        onblur="if(this.value==''){this.value='Search TV Show Name'};"
+        onkeyup="searchOnPage(this.value.toLowerCase());"
+        id="search_box" value="Search TV Show Name" />
         <input type="submit" id="search_button" value="Search" />
         <div id="search_result"></div>
            <!-- add home button -->
        <a href="https://mitch-git5.github.io/homepage-one-stop-tv-delight-/index.html" class="homepage-link">Home Button</a>
+         </div>
+         <div id="genre-select-container">
+         <label for="genre-select" class="genre-label">Search By Genre:</label>
+         <select id="genre-select">
+         <option value="all">All</option>
+         </select>
+         </div>
+         <div id="date-select-container">
+           <label for="date-select" class="date-label">Search By Year:</label>
+           <select id="date-select">
+             <option value="all">All</option>
+           </select>
          </div>
         <div class="infoBackTitleContainer">
           <span class="infoBackTitle">Full Library</span>
@@ -6275,7 +6287,10 @@ One month later, Ayanokoji, Horikita, and the students of Class D learn the trut
         <div class="footerTextContainer">
       </div>
     </div>
-      <script>
+
+    <script src="lib/genre list.js"></script>
+    <script src="lib/date list.js"></script>
+    <script>
       const menuButton = document.getElementById('menu-button');
       const sidebarNav = document.getElementById('sidebar-nav');
     
@@ -6286,7 +6301,7 @@ One month later, Ayanokoji, Horikita, and the students of Class D learn the trut
         const infoContainer = document.querySelector('.infoContainerTextContainer');
         infoContainer.classList.toggle('sidebar-nav-open');
       });
-      </script>
+    </script>
     <script type="text/javascript">
                       $(document).ready(function() {
                                 $(&quot;.fancybox&quot;).fancybox({
