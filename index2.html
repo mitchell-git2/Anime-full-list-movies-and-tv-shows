@@ -22,6 +22,7 @@
                                 });
             
 </script>
+<link rel="stylesheet" href="lib/media queries tv shows.css">
   </head>
   <body>
     <div id="overlay"></div>
@@ -34,7 +35,7 @@
        <li><a href="index2.html"target="_blank">Full Library:Anime TV Shows</a></li>
        <li><a href="index.html"target="_blank">Full Library:Anime Movies</a></li>
        <li><a href="https://mitch-git4.github.io/Newly-Added-Anime-TV-Shows-and-Movies/index2.html"target="_blank">New Anime Tv Shows Added</a></li>
-       <li><a href="https://docs.google.com/document/d/1Dw9nwIlQjj77e0yFSASIzcSfRoqXMQEi/edit?usp=sharing&ouid=107722713483068785243&rtpof=true&sd=true"target="_blank">Check List Link Page Anime Tv Shows</a></li>
+       <li><a href="https://docs.google.com/document/d/1WlzL7PambeLAvbzRHy0o_XYLKOGGFqBF/edit?usp=sharing&ouid=107722713483068785243&rtpof=true&sd=true"target="_blank">Check List Link Page Anime Tv Shows</a></li>
        </ul>
        </div>
       <div class="infoContainer">
@@ -45,9 +46,12 @@
         id="search_box" value="Search TV Show Name" />
         <input type="submit" id="search_button" value="Search" />
         <div id="search_result"></div>
+        <div class="homepage-link-container">
            <!-- add home button -->
        <a href="https://mitch-git5.github.io/homepage-one-stop-tv-delight-/index.html" class="homepage-link">Home Button</a>
          </div>
+         </div>
+         <div class="dropdown-container">
          <div id="genre-select-container">
          <label for="genre-select" class="genre-label">Search By Genre:</label>
          <select id="genre-select">
@@ -60,6 +64,13 @@
              <option value="all">All</option>
            </select>
          </div>
+         <div id="age-rating-select-container">
+         <label for="age-rating-select" class="age-rating-label">Search By Age Rating:</label>
+         <select id="age-rating-select">
+         <option value="all">All</option>
+        </select>
+        </div>
+        </div>
         <div class="infoBackTitleContainer">
           <span class="infoBackTitle">Full Library</span>
           <hr class="subTitleSeprator" />
@@ -68,11 +79,11 @@
         <div class="infoContainerTextContainer">
           <div class="name">
             <span class="titleNoBlock">Total TV Shows:</span>
-            <span>87</span>
+            <span>90</span>
           </div>
           <div class="name">
             <span class="titleNoBlock">New Tv Shows Added This Month:</span>
-            <span>19</span>
+            <span>22</span>
           </div>
           <div class="name">
             <span class="titleNoBlock">Request Link Page</span>
@@ -88,7 +99,7 @@
            </div>
             <div class="name">
             <span class="titleNoBlock">Updated TV Shows This Month</span>
-            <span>1</span>
+            <span>8</span>
            </div>
          </div>
         </div>
@@ -148,15 +159,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=Iw3xnXnsDnU"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -219,15 +230,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=Ld4Xetaesqs"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG</span>
+            <span class="value">TV:PG</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -290,15 +301,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=5EdHjcjviPA"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">TV-MA</span>
+            <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -361,15 +372,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=PKCPox3TjNw"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">TV-MA</span>
+            <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -432,15 +443,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=ZWXm83PhXYI"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -503,15 +514,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=S8j5iEklHyI"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">continuing</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">TV-MA</span>
+            <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -574,15 +585,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=1X1RlSg8DYI"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG</span>
+            <span class="value">TV:PG</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -645,15 +656,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=JsL9vhMfyrs"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">TV-MA</span>
+            <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -716,15 +727,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=Kw6JkejW_Hw"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -787,15 +798,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=x93IOgDQX6M"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -858,15 +869,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=f9OV_KzR3SM"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">continuing</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">TV-MA</span>
+            <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -929,15 +940,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=ylms3zzyfuA"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -1000,15 +1011,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=FaHY74-6UYs"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">TV-MA</span>
+            <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -1049,11 +1060,11 @@
           </div>
           <div class="aniSeasons name">
             <span class="titleNoBlock">Seasons:</span>
-            <span class="value">4</span>
+            <span class="value">6</span>
           </div>
           <div class="aniNumEps name">
             <span class="titleNoBlock">No. Episodes:</span>
-            <span class="value">51</span>
+            <span class="value">70</span>
           </div>
           <div class="aniRating name">
             <span class="titleNoBlock">Rating:</span>
@@ -1071,17 +1082,21 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=gxM1j64w4fk"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">continuing</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">TV-MA</span>
+            <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">UnComplete</span>
+          </div>
+            <div class="aniUpdate name">
+           <span class="titleNoBlock">Updated:</span>
+           <span class="text">New Episodes Added:</span><span class="star">&#9733;</span>
           </div>
         </div>
         <div class="qBar"></div>
@@ -1142,15 +1157,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=LtudWW5_4Do"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -1213,15 +1228,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=gqIEgmqljM8"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG</span>
+            <span class="value">TV:PG</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -1284,15 +1299,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=lCCqurmsWHw"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG</span>
+            <span class="value">TV:PG</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -1355,15 +1370,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=_DDm-2h8sbw"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -1426,15 +1441,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=8M-F_-8VbUk"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -1497,15 +1512,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=rFZKXUg8PiU"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">TV-MA</span>
+            <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -1568,15 +1583,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=Gvpyr1aPHcw"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">UnComplete</span>
           </div>
@@ -1639,15 +1654,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=QS7JdVJQ4kI"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG</span>
+            <span class="value">TV:PG</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -1710,15 +1725,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=4HikfQeRtpY"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -1781,15 +1796,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=bTU3detmX_I&t=52s"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">TV-MA</span>
+            <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -1852,15 +1867,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=y7qCjQIawRQ"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">continuing</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">TV-MA</span>
+            <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -1923,15 +1938,15 @@
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=8Hbhtq9ugPg"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">TV-MA</span>
+            <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -1998,15 +2013,15 @@ As the scale and frequency of incidents involving the undead escalate in England
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=7CQKMDFAKMk"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">TV-MA</span>
+            <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -2073,15 +2088,15 @@ A new episode is aired every Halloween.</span>
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=GDEW1USm4DQ"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">TV-MA</span>
+            <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -2144,15 +2159,15 @@ A new episode is aired every Halloween.</span>
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=4vs4CJ1blJc"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -2215,15 +2230,15 @@ A new episode is aired every Halloween.</span>
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=3_6QBymI7DM"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">TV-MA</span>
+            <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -2286,15 +2301,15 @@ A new episode is aired every Halloween.</span>
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=M_pWteehKzM"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -2359,15 +2374,15 @@ In this new world resembling his favorite game, Takuma is greeted by the two gir
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=4LqaqopJjW8"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">TV-MA</span>
+            <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -2430,15 +2445,15 @@ In this new world resembling his favorite game, Takuma is greeted by the two gir
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=pJJm6ecm4jI"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">Unknown</span>
+            <span class="value">TV:Unknown</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -2501,15 +2516,15 @@ In this new world resembling his favorite game, Takuma is greeted by the two gir
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=Coa1o6qSiiM"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">continuing</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -2550,11 +2565,11 @@ In this new world resembling his favorite game, Takuma is greeted by the two gir
           </div>
           <div class="aniSeasons name">
             <span class="titleNoBlock">Seasons:</span>
-            <span class="value">3</span>
+            <span class="value">5</span>
           </div>
           <div class="aniNumEps name">
             <span class="titleNoBlock">No. Episodes:</span>
-            <span class="value">57</span>
+            <span class="value">49</span>
           </div>
           <div class="aniRating name">
             <span class="titleNoBlock">Rating:</span>
@@ -2572,17 +2587,21 @@ In this new world resembling his favorite game, Takuma is greeted by the two gir
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=2CLC36DJzLU"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">TV-MA</span>
+            <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
+          </div>
+            <div class="aniUpdate name">
+           <span class="titleNoBlock">Updated:</span>
+           <span class="text">New Episodes Added:</span><span class="star">&#9733;</span>
           </div>
         </div>
         <div class="qBar"></div>
@@ -2643,15 +2662,15 @@ In this new world resembling his favorite game, Takuma is greeted by the two gir
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=G_OGFoGywiY"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">UnComplete</span>
           </div>
@@ -2714,15 +2733,15 @@ In this new world resembling his favorite game, Takuma is greeted by the two gir
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=U-gkwdGooDU"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">continuing</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -2787,15 +2806,15 @@ Bell Cranel, a novice adventurer, is the sole member of the Familia under the go
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=QyrpphwHNaw"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">continuing</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">TV-MA</span>
+            <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">UnComplete</span>
           </div>
@@ -2836,11 +2855,11 @@ Bell Cranel, a novice adventurer, is the sole member of the Familia under the go
           </div>
           <div class="aniSeasons name">
             <span class="titleNoBlock">Seasons:</span>
-            <span class="value">3</span>
+            <span class="value">4</span>
           </div>
           <div class="aniNumEps name">
             <span class="titleNoBlock">No. Episodes:</span>
-            <span class="value">22</span>
+            <span class="value">33</span>
           </div>
           <div class="aniRating name">
             <span class="titleNoBlock">Rating:</span>
@@ -2858,17 +2877,21 @@ Bell Cranel, a novice adventurer, is the sole member of the Familia under the go
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=h4dX58X6ln4"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
+          </div>
+            <div class="aniUpdate name">
+           <span class="titleNoBlock">Updated:</span>
+           <span class="text">New Episodes Added:</span><span class="star">&#9733;</span>
           </div>
         </div>
         <div class="qBar"></div>
@@ -2929,15 +2952,15 @@ Bell Cranel, a novice adventurer, is the sole member of the Familia under the go
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=ZlL01zXTq4c"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG</span>
+            <span class="value">TV:PG</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -2978,11 +3001,11 @@ Bell Cranel, a novice adventurer, is the sole member of the Familia under the go
           </div>
           <div class="aniSeasons name">
             <span class="titleNoBlock">Seasons:</span>
-            <span class="value">1</span>
+            <span class="value">3</span>
           </div>
           <div class="aniNumEps name">
             <span class="titleNoBlock">No. Episodes:</span>
-            <span class="value">13</span>
+            <span class="value">35</span>
           </div>
           <div class="aniRating name">
             <span class="titleNoBlock">Rating:</span>
@@ -3000,17 +3023,21 @@ Bell Cranel, a novice adventurer, is the sole member of the Familia under the go
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=pBlx0N9eLNY"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">TV-MA</span>
+            <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
+          </div>
+            <div class="aniUpdate name">
+           <span class="titleNoBlock">Updated:</span>
+           <span class="text">New Episodes Added:</span><span class="star">&#9733;</span>
           </div>
         </div>
         <div class="qBar"></div>
@@ -3049,11 +3076,11 @@ Bell Cranel, a novice adventurer, is the sole member of the Familia under the go
           </div>
           <div class="aniSeasons name">
             <span class="titleNoBlock">Seasons:</span>
-            <span class="value">1</span>
+            <span class="value">2</span>
           </div>
           <div class="aniNumEps name">
             <span class="titleNoBlock">No. Episodes:</span>
-            <span class="value">12</span>
+            <span class="value">36</span>
           </div>
           <div class="aniRating name">
             <span class="titleNoBlock">Rating:</span>
@@ -3071,17 +3098,21 @@ Bell Cranel, a novice adventurer, is the sole member of the Familia under the go
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=9qJyDlZst8c"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">continuing</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
-            <span class="value">UnComplete</span>
+            <span class="value">Complete</span>
+          </div>
+            <div class="aniUpdate name">
+           <span class="titleNoBlock">Updated:</span>
+           <span class="text">New Episodes Added:</span><span class="star">&#9733;</span>
           </div>
         </div>
         <div class="qBar"></div>
@@ -3142,15 +3173,15 @@ Bell Cranel, a novice adventurer, is the sole member of the Familia under the go
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=nTze7vAdRpM"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -3213,15 +3244,15 @@ Bell Cranel, a novice adventurer, is the sole member of the Familia under the go
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=jSCKo90DMK4"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">continuing</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">TV-MA</span>
+            <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -3284,15 +3315,15 @@ Bell Cranel, a novice adventurer, is the sole member of the Familia under the go
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=EPVkcwyLQQ8"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">continuing</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">UnComplete</span>
           </div>
@@ -3355,15 +3386,15 @@ Bell Cranel, a novice adventurer, is the sole member of the Familia under the go
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=EPVkcwyLQQ8"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">continuing</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">UnComplete</span>
           </div>
@@ -3426,15 +3457,15 @@ Bell Cranel, a novice adventurer, is the sole member of the Familia under the go
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=uQyWoG43kRI"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -3497,15 +3528,15 @@ Bell Cranel, a novice adventurer, is the sole member of the Familia under the go
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=Poo5lqoWSGw"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -3568,15 +3599,15 @@ Bell Cranel, a novice adventurer, is the sole member of the Familia under the go
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=6xKWiCMKKJg"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">TV-Y7</span>
+            <span class="value">TV:Y7</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -3639,15 +3670,15 @@ Bell Cranel, a novice adventurer, is the sole member of the Familia under the go
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=jZFEtc3CKHs"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -3710,15 +3741,15 @@ Bell Cranel, a novice adventurer, is the sole member of the Familia under the go
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=dV8OwEGw0mM"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG</span>
+            <span class="value">TV:PG</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -3781,15 +3812,15 @@ Bell Cranel, a novice adventurer, is the sole member of the Familia under the go
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=xWKzbhAUeZE"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">TV-MA</span>
+            <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -3852,15 +3883,15 @@ Bell Cranel, a novice adventurer, is the sole member of the Familia under the go
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=-E5-KAOjgiY"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG</span>
+            <span class="value">TV:PG</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -3923,15 +3954,15 @@ Bell Cranel, a novice adventurer, is the sole member of the Familia under the go
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=z8z0sh4kSLw"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -3994,15 +4025,15 @@ Bell Cranel, a novice adventurer, is the sole member of the Familia under the go
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=wxcvbL6o55M"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -4065,15 +4096,15 @@ Bell Cranel, a novice adventurer, is the sole member of the Familia under the go
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="">No Trailer</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">TV-MA</span>
+            <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -4136,15 +4167,15 @@ Bell Cranel, a novice adventurer, is the sole member of the Familia under the go
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=IwkkSbnpZCI"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">TV-MA</span>
+            <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -4207,15 +4238,15 @@ Bell Cranel, a novice adventurer, is the sole member of the Familia under the go
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=eB4MgMcRMaU"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -4280,15 +4311,15 @@ Even in another world, lives aren&rsquo;t always on the line. There&rsquo;s plen
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=sYHbwJ4nukU"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -4351,19 +4382,19 @@ Even in another world, lives aren&rsquo;t always on the line. There&rsquo;s plen
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=LrNvF8gcJPM&t=68s"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">continuing</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
-            <span class="value">UnComplete</span>
+            <span class="value">Complete</span>
           </div>
-            <div class="anilink name">
+            <div class="aniUpdate name">
            <span class="titleNoBlock">Updated:</span>
            <span class="text">New Episodes Added:</span><span class="star">&#9733;</span>
           </div>
@@ -4426,15 +4457,15 @@ Even in another world, lives aren&rsquo;t always on the line. There&rsquo;s plen
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=Z8HSMFelQIU"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -4497,15 +4528,15 @@ Even in another world, lives aren&rsquo;t always on the line. There&rsquo;s plen
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=CCXLUQzuigw"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -4546,7 +4577,7 @@ Even in another world, lives aren&rsquo;t always on the line. There&rsquo;s plen
           </div>
           <div class="aniSeasons name">
             <span class="titleNoBlock">Seasons:</span>
-            <span class="value">3</span>
+            <span class="value">4</span>
           </div>
           <div class="aniNumEps name">
             <span class="titleNoBlock">No. Episodes:</span>
@@ -4568,17 +4599,21 @@ Even in another world, lives aren&rsquo;t always on the line. There&rsquo;s plen
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=7jfXtfhG5cQ"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">TV-MA</span>
+            <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
+          </div>
+            <div class="aniUpdate name">
+           <span class="titleNoBlock">Updated:</span>
+           <span class="text">New Episodes Added:</span><span class="star">&#9733;</span>
           </div>
         </div>
         <div class="qBar"></div>
@@ -4639,15 +4674,15 @@ Even in another world, lives aren&rsquo;t always on the line. There&rsquo;s plen
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=MfmV1iQlRFg"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">continuing</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -4710,15 +4745,15 @@ Even in another world, lives aren&rsquo;t always on the line. There&rsquo;s plen
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=iKSiY_w0eMg"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">TV-MA</span>
+            <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -4759,11 +4794,11 @@ Even in another world, lives aren&rsquo;t always on the line. There&rsquo;s plen
           </div>
           <div class="aniSeasons name">
             <span class="titleNoBlock">Seasons:</span>
-            <span class="value">2</span>
+            <span class="value">5</span>
           </div>
           <div class="aniNumEps name">
             <span class="titleNoBlock">No. Episodes:</span>
-            <span class="value">24</span>
+            <span class="value">50</span>
           </div>
           <div class="aniRating name">
             <span class="titleNoBlock">Rating:</span>
@@ -4781,17 +4816,21 @@ Even in another world, lives aren&rsquo;t always on the line. There&rsquo;s plen
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=vGuQeQsoRgU"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">TV-MA</span>
+            <span class="value">TV:MA</span>
           </div>     
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
+          </div>
+            <div class="aniUpdate name">
+           <span class="titleNoBlock">Updated:</span>
+           <span class="text">New Episodes Added:</span><span class="star">&#9733;</span>
           </div>
         </div>
         <div class="qBar"></div>
@@ -4852,15 +4891,15 @@ Even in another world, lives aren&rsquo;t always on the line. There&rsquo;s plen
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=r03tIyOaXIs"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -4923,15 +4962,15 @@ Even in another world, lives aren&rsquo;t always on the line. There&rsquo;s plen
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=YI7_wYJQLZU"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">continuing</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -4993,15 +5032,15 @@ Even in another world, lives aren&rsquo;t always on the line. There&rsquo;s plen
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=vkPk_Lon3c4"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Ended</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">Unknown</span>
+            <span class="value">TV:Unknown</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -5063,15 +5102,15 @@ Even in another world, lives aren&rsquo;t always on the line. There&rsquo;s plen
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=9ez8lm9I26Y"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -5133,15 +5172,15 @@ Even in another world, lives aren&rsquo;t always on the line. There&rsquo;s plen
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=cXLj3oelfqY"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">NO</span>
           </div>
-        <div class="anilink name">
+          <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">Y:7</span>
+            <span class="value">TV:Y7</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Ended</span>
           </div>
@@ -5203,15 +5242,15 @@ Even in another world, lives aren&rsquo;t always on the line. There&rsquo;s plen
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=8TOWzr56nFA"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Ended</span>
           </div>
-          <div class="anilink name">
+            <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -5273,15 +5312,15 @@ Even in another world, lives aren&rsquo;t always on the line. There&rsquo;s plen
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=6Kj1hc54nu0"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+            <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -5343,15 +5382,15 @@ Even in another world, lives aren&rsquo;t always on the line. There&rsquo;s plen
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=ltMQr2tb2wM"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Ended</span>
           </div>
-          <div class="anilink name">
+            <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -5414,15 +5453,15 @@ He will wipe out the fraud that has swept the world, and deliver to the commoner
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=TmbArYYJSG0"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Ended</span>
           </div>
-          <div class="anilink name">
+            <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -5484,15 +5523,15 @@ He will wipe out the fraud that has swept the world, and deliver to the commoner
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=TlP-RRo5b-8"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing/span>
           </div>
-          <div class="anilink name">
+            <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -5558,15 +5597,15 @@ One month later, Ayanokoji, Horikita, and the students of Class D learn the trut
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=RTvdxGyWV6c"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+            <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -5628,15 +5667,15 @@ One month later, Ayanokoji, Horikita, and the students of Class D learn the trut
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=W6j-vWMmIMw"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Ended</span>
           </div>
-          <div class="anilink name">
+            <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -5699,15 +5738,15 @@ One month later, Ayanokoji, Horikita, and the students of Class D learn the trut
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=45OGS6wrtDc"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Ended</span>
           </div>
-          <div class="anilink name">
+            <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -5770,15 +5809,15 @@ One month later, Ayanokoji, Horikita, and the students of Class D learn the trut
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=HS7Uqvi3nkY"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Ended</span>
           </div>
-          <div class="anilink name">
+            <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -5841,15 +5880,15 @@ One month later, Ayanokoji, Horikita, and the students of Class D learn the trut
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=sXR2SxYg26Y"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+            <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -5912,15 +5951,15 @@ One month later, Ayanokoji, Horikita, and the students of Class D learn the trut
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=GpZ-Uw0mw_8"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Continuing</span>
           </div>
-          <div class="anilink name">
+            <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -5983,15 +6022,15 @@ One month later, Ayanokoji, Horikita, and the students of Class D learn the trut
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=UBLKdeJNNI0"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Ended</span>
           </div>
-          <div class="anilink name">
+            <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -6054,15 +6093,15 @@ One month later, Ayanokoji, Horikita, and the students of Class D learn the trut
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=yr124C1rQyA"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Ended</span>
           </div>
-          <div class="anilink name">
+            <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -6125,15 +6164,15 @@ One month later, Ayanokoji, Horikita, and the students of Class D learn the trut
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=N6PQP28L3NM"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Ended</span>
           </div>
-          <div class="anilink name">
+            <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
             <span class="value">TV:MA</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -6195,15 +6234,15 @@ One month later, Ayanokoji, Horikita, and the students of Class D learn the trut
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=kgNkGohA20k"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Ended</span>
           </div>
-          <div class="anilink name">
+            <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
@@ -6265,22 +6304,232 @@ One month later, Ayanokoji, Horikita, and the students of Class D learn the trut
            <span class="titleNoBlock">Trailer:</span>
             <span class="value"><a href="https://www.youtube.com/watch?v=tyVuFYHs5Jc"target="_blank">trailer link</a></span>
           </div>
-          <div class="anilink name">
+          <div class="aniAiring name">
            <span class="titleNoBlock">Currently Airing:</span>
             <span class="value">Ended</span>
           </div>
-          <div class="anilink name">
+            <div class="aniAgeRating name">
            <span class="titleNoBlock">Age Rating:</span>
-            <span class="value">PG:14</span>
+            <span class="value">TV:14</span>
           </div>
-          <div class="anilink name">
+          <div class="aniStatus name">
            <span class="titleNoBlock">Status:</span>
             <span class="value">Complete</span>
           </div>
         </div>
         <div class="qBar"></div>
       </div>        
+             
+       <div id="tvshow_88" class="aniContainer aniOrder0">
+        <a href="images/fanart/88.jpg" class="fancybox" rel="88">
+          <div class="fanArt" id="fanart_88">
+            <img class="lazyLoad" alt="fanart" onerror="this.style.display=&#39;none&#39;;"
+            src="images/Kaiju%20No.%208%20%282024%29-FANART.thumb.jpg" />
+          </div>
+        </a>
+        <div onclick="showPlot(this.getAttribute(&#39;data-plotid&#39;));" class="plotIcon" data-plotid="88" id="plot_88_icon"></div>
+        <a target="_BLANK" href="Kaiju%20No.%208%20%282024%29/tvshow.html" class="detailsIcon">
+          <img src="images/icons/detailsIcon.png" />
+        </a>
+        <div onclick="hidePlot(this.getAttribute(&#39;data-plotid&#39;));" class="plotContainer" data-plotid="88" id="plot_88">
+          <span class="value">In a world plagued by creatures known as Kaiju, Kafka Hibino aspired to enlist in The Defense Force. He makes a promise to enlist with his childhood friend, Mina Ashiro. Soon, life takes them in separate ways. While employed cleaning up after Kaiju battles, Kafka meets Reno Ichikawa. Reno's determination to join The Defense Force reawakens Kafka's promise to join Mina and protect humanity.</span>
+        </div>
+        <span class="showId">#88</span>
+        <div class="posterContainer">
+          <a href="images/Kaiju%20No.%208%20%282024%29-POSTER.thumb.jpg" class="fancybox" rel="88">
+            <img class="posterImage lazyLoad" alt="poster" onerror="this.src = &#39;images/icons/noPoster.jpg&#39;;"
+            src="images/Kaiju%20No.%208%20%282024%29-POSTER.thumb.jpg" />
+          </a>
+        </div>
+        <div class="infoTextContainer rightAligned">
+          <div class="aniName name">
+            <span class="titleBlock">Name:</span>
+            <span class="value">Kaiju No. 8</span>
+          </div>
+          <div class="aniDate name">
+            <span class="titleNoBlock">Date:</span>
+            <span class="value">2024/04/13</span>
+          </div>
+          <div class="aniSeasons name">
+            <span class="titleNoBlock">Seasons:</span>
+            <span class="value">1</span>
+          </div>
+          <div class="aniNumEps name">
+            <span class="titleNoBlock">No. Episodes:</span>
+            <span class="value">12</span>
+          </div>
+          <div class="aniRating name">
+            <span class="titleNoBlock">Rating:</span>
+            <span class="value">8.6</span>
+          </div>
+          <div class="aniGenre name">
+            <span class="titleBlock">Genre(s):</span>
+            <span class="value">Animation, Action, Science Fiction</span>
+          </div>
+          <div class="aniStudio name">
+            <span class="titleNoBlock">Studio:</span>
+            <span class="value">TV Tokyo, TV Aichi, TVQ</span>
+          </div>
+          <div class="anilink name">
+           <span class="titleNoBlock">Trailer:</span>
+            <span class="value"><a href="https://www.youtube.com/watch?v=JwF7bhvnCxI"target="_blank">trailer link</a></span>
+          </div>
+          <div class="aniAiring name">
+           <span class="titleNoBlock">Currently Airing:</span>
+            <span class="value">Continuing</span>
+          </div>
+          <div class="aniAgeRating name">
+           <span class="titleNoBlock">Age Rating:</span>
+            <span class="value">TV:14</span>
+          </div>
+          <div class="aniStatus name">
+           <span class="titleNoBlock">Status:</span>
+            <span class="value">Complete</span>
+          </div>
+        </div>
+        <div class="qBar"></div>
+      </div>
 
+      <div id="tvshow_89" class="aniContainer aniOrder0">
+        <a href="images/fanart/89.jpg" class="fancybox" rel="89">
+          <div class="fanArt" id="fanart_89">
+            <img class="lazyLoad" alt="fanart" onerror="this.style.display=&#39;none&#39;;"
+            src="images/The%20Ossan%20Newbie%20Adventurer%2C%20Trained%20to%20Death%20by%20the%20Most%20Powerful%20Party%2C%20Became%20Invincible%20%282024%29-FANART.thumb.jpg" />
+          </div>
+        </a>
+        <div onclick="showPlot(this.getAttribute(&#39;data-plotid&#39;));" class="plotIcon" data-plotid="89" id="plot_89_icon"></div>
+        <a target="_BLANK" href="The%20Ossan%20Newbie%20Adventurer%2C%20Trained%20to%20Death%20by%20the%20Most%20Powerful%20Party%2C%20Became%20Invincible%20%282024%29/tvshow.html" class="detailsIcon">
+          <img src="images/icons/detailsIcon.png" />
+        </a>
+        <div onclick="hidePlot(this.getAttribute(&#39;data-plotid&#39;));" class="plotContainer" data-plotid="89" id="plot_89">
+          <span class="value">Normally, people choose to become adventurers in their teens. At 30 years old, Rick Gladiator bucks the trend by leaving his job as a guild clerk to become an adventurer. He begins as a novice F-rank with the fighting strength of an S-rank. After two years of brutal training with the continent&rsquo;s strongest party, Orichalcum Fist, Rick will defeat anyone who underestimates him!</span>
+        </div>
+        <span class="showId">#89</span>
+        <div class="posterContainer">
+          <a href="images/The%20Ossan%20Newbie%20Adventurer%2C%20Trained%20to%20Death%20by%20the%20Most%20Powerful%20Party%2C%20Became%20Invincible%20%282024%29-POSTER.thumb.jpg" class="fancybox" rel="89">
+            <img class="posterImage lazyLoad" alt="poster" onerror="this.src = &#39;images/icons/noPoster.jpg&#39;;"
+            src="images/The%20Ossan%20Newbie%20Adventurer%2C%20Trained%20to%20Death%20by%20the%20Most%20Powerful%20Party%2C%20Became%20Invincible%20%282024%29-POSTER.thumb.jpg" />
+          </a>
+        </div>
+        <div class="infoTextContainer rightAligned">
+          <div class="aniName name">
+            <span class="titleBlock">Name:</span>
+            <span class="value">The Ossan Newbie Adventurer, Trained to Death by the Most Powerful Party, Became Invincible</span>
+          </div>
+          <div class="aniDate name">
+            <span class="titleNoBlock">Date:</span>
+            <span class="value">2024/07/02</span>
+          </div>
+          <div class="aniSeasons name">
+            <span class="titleNoBlock">Seasons:</span>
+            <span class="value">1</span>
+          </div>
+          <div class="aniNumEps name">
+            <span class="titleNoBlock">No. Episodes:</span>
+            <span class="value">12</span>
+          </div>
+          <div class="aniRating name">
+            <span class="titleNoBlock">Rating:</span>
+            <span class="value">8.2</span>
+          </div>
+          <div class="aniGenre name">
+            <span class="titleBlock">Genre(s):</span>
+            <span class="value">Action, Animation, Science Fiction</span>
+          </div>
+          <div class="aniStudio name">
+            <span class="titleNoBlock">Studio:</span>
+            <span class="value">TV Tokyo, Yumeta Company, TV Tokyo Medianet</span>
+          </div>
+          <div class="anilink name">
+           <span class="titleNoBlock">Trailer:</span>
+            <span class="value"><a href="https://www.youtube.com/watch?v=j3bD6B-oIt4"target="_blank">trailer link</a></span>
+          </div>
+          <div class="aniAiring name">
+           <span class="titleNoBlock">Currently Airing:</span>
+            <span class="value">Ended</span>
+          </div>
+          <div class="aniAgeRating name">
+           <span class="titleNoBlock">Age Rating:</span>
+            <span class="value">TV:Unknown</span>
+          </div>
+          <div class="aniStatus name">
+           <span class="titleNoBlock">Status:</span>
+            <span class="value">Complete</span>
+          </div>
+        </div>
+        <div class="qBar"></div>
+      </div>
+
+      <div id="tvshow_90" class="aniContainer aniOrder0">
+        <a href="images/fanart/90.jpg" class="fancybox" rel="90">
+          <div class="fanArt" id="fanart_90">
+            <img class="lazyLoad" alt="fanart" onerror="this.style.display=&#39;none&#39;;"
+            src="images/Spice%20and%20Wolf%20MERCHANT%20MEETS%20THE%20WISE%20WOLF%20%282024%29-FANART.thumb.jpg" />
+          </div>
+        </a>
+        <div onclick="showPlot(this.getAttribute(&#39;data-plotid&#39;));" class="plotIcon" data-plotid="90" id="plot_90_icon"></div>
+        <a target="_BLANK" href="Spice%20and%20Wolf%20MERCHANT%20MEETS%20THE%20WISE%20WOLF%20%282024%29/tvshow.html" class="detailsIcon">
+          <img src="images/icons/detailsIcon.png" />
+        </a>
+        <div onclick="hidePlot(this.getAttribute(&#39;data-plotid&#39;));" class="plotContainer" data-plotid="90" id="plot_90">
+          <span class="value">Lawrence is a traveling merchant selling various goods from a horse-drawn cart. One day, he arrives at a village and meets a beautiful girl with the ears and tail of an animal! Her name is Holo the Wisewolf and she brings bountiful harvests. She wishes to return to her homeland, and Lawrence offers to take her. Now, the once-lonely merchant and the once-lonely wisewolf begin their journey north.</span>
+        </div>
+        <span class="showId">#90</span>
+        <div class="posterContainer">
+          <a href="images/Spice%20and%20Wolf%20MERCHANT%20MEETS%20THE%20WISE%20WOLF%20%282024%29-POSTER.thumb.jpg" class="fancybox" rel="90">
+            <img class="posterImage lazyLoad" alt="poster" onerror="this.src = &#39;images/icons/noPoster.jpg&#39;;"
+            src="images/Spice%20and%20Wolf%20MERCHANT%20MEETS%20THE%20WISE%20WOLF%20%282024%29-POSTER.thumb.jpg" />
+          </a>
+        </div>
+        <div class="infoTextContainer rightAligned">
+          <div class="aniName name">
+            <span class="titleBlock">Name:</span>
+            <span class="value">Spice and Wolf: MERCHANT MEETS THE WISE WOLF</span>
+          </div>
+          <div class="aniDate name">
+            <span class="titleNoBlock">Date:</span>
+            <span class="value">2024/04/02</span>
+          </div>
+          <div class="aniSeasons name">
+            <span class="titleNoBlock">Seasons:</span>
+            <span class="value">1</span>
+          </div>
+          <div class="aniNumEps name">
+            <span class="titleNoBlock">No. Episodes:</span>
+            <span class="value">25</span>
+          </div>
+          <div class="aniRating name">
+            <span class="titleNoBlock">Rating:</span>
+            <span class="value">8.1</span>
+          </div>
+          <div class="aniGenre name">
+            <span class="titleBlock">Genre(s):</span>
+            <span class="value">Animation, Science Fiction, Drama, Action</span>
+          </div>
+          <div class="aniStudio name">
+            <span class="titleNoBlock">Studio:</span>
+            <span class="value">TV Tokyo, TV Aichi, TV Osaka</span>
+          </div>
+          <div class="anilink name">
+           <span class="titleNoBlock">Trailer:</span>
+            <span class="value"><a href="https://www.youtube.com/watch?v=qeaqiXTR1MU"target="_blank">trailer link</a></span>
+          </div>
+          <div class="aniAiring name">
+           <span class="titleNoBlock">Currently Airing:</span>
+            <span class="value">Continuing</span>
+          </div>
+          <div class="aniAgeRating name">
+           <span class="titleNoBlock">Age Rating:</span>
+            <span class="value">TV:Unknown</span>
+          </div>
+          <div class="aniStatus name">
+           <span class="titleNoBlock">Status:</span>
+            <span class="value">Complete</span>
+          </div>
+        </div>
+        <div class="qBar"></div>
+      </div>
+                  
 
       <div class="footerSpacer"></div>
       <div class="footerContainer">
@@ -6288,8 +6537,6 @@ One month later, Ayanokoji, Horikita, and the students of Class D learn the trut
       </div>
     </div>
 
-    <script src="lib/genre list.js"></script>
-    <script src="lib/date list.js"></script>
     <script>
       const menuButton = document.getElementById('menu-button');
       const sidebarNav = document.getElementById('sidebar-nav');
@@ -6317,8 +6564,9 @@ One month later, Ayanokoji, Horikita, and the students of Class D learn the trut
                 
 </script>
  <script src="lib/sortShows.js"></script>
- <script src="lib/year and genre filter.js" defer></script>
+<script src="lib/filter dropdowns.js" defer></script>
        <!-- Add the no-results-message element -->
 <div id="no-results-message" style="display: none;"></div>
+<script src="lib/Iframe tv shows.js"></script>
   </body>
 </html>
