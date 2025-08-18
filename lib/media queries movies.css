@@ -230,7 +230,7 @@ display: none;
 
 #searchContainer{
   position: relative;
-  right: 50px;
+  right: 10px;
   bottom: 70px;
   width: 200px; /* add a width */
   height: 50px; /* add a height */
@@ -489,7 +489,7 @@ display: none;
 
 #searchContainer{
   position: relative;
-  right: 50px;
+  right: 10px;
   bottom: 70px;
   width: 200px; /* add a width */
   height: 50px; /* add a height */
